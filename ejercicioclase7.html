@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Roboto para títulos -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Open Sans para párrafos -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="logo1.png"
+        alt="Logo de Mi sitio web"
+        width="500"
+        height="300"
+      />
+      <h1>My Travel Self</h1>
+      <h2>Arma tu viaje a tu manera. Un paquete único, diseñado por vos.</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Productos/Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h2>Video de presentación</h2>
+        <video controls width="480">
+          <source src="video720.mp4" type="video/mp4" />
+          <track
+            src="subtitulos.vtt"
+            kind="subtitles"
+            srclang="es"
+            label="Español"
+          />
+          Tu navegador no soporta el elemento de video.
+        </video>
+      </section>
+
+      <section class="productos">
+        <article class="producto">
+          <img
+            src="imagenesbariloche.jpg"
+            alt="Bariloche & Lagos Patagónicos"
+          />
+          <h2>Bariloche & Lagos Patagónicos</h2>
+          <p>Duración: 5 días - Octubre 2026</p>
+          <p class="promo">PROMO 2x1</p>
+          <p class="precio">$599.990</p>
+          <p class="lugares">218 lugares disponibles</p>
+          <button>🛒 Reservar</button>
+        </article>
+
+        <article class="producto">
+          <img src="imagenesmendoza.jpg" alt="Mendoza & Termas de Cacheuta" />
+          <h2>Mendoza & Termas de Cacheuta</h2>
+          <p>Duración: 5 días - Octubre 2026</p>
+          <p class="promo">PROMO 2x1</p>
+          <p class="precio">$499.990</p>
+          <p class="lugares">371 lugares disponibles</p>
+          <button>🛒 Reservar</button>
+        </article>
+
+        <article class="producto">
+          <img src="imagenesiguazu.jpg" alt="Cataratas del Iguazú Premium" />
+          <h2>Cataratas del Iguazú Premium</h2>
+          <p>Duración: 5 días - Octubre 2026</p>
+          <p class="promo">PROMO 2x1</p>
+          <p class="precio">$399.990</p>
+          <p class="lugares">409 lugares disponibles</p>
+          <button>🛒 Reservar</button>
+        </article>
+      </section>
+
+      <hr />
+      <section class="reseñas">
+        <div class="card">
+          <h3>María López</h3>
+          <p>“Excelente atención y paquetes muy completos.”</p>
+        </div>
+
+        <div class="card">
+          <h3>Carlos Díaz</h3>
+          <p>“La experiencia en Mendoza fue inolvidable.”</p>
+        </div>
+
+        <div class="card">
+          <h3>Ana Torres</h3>
+          <p>“Muy buena organización y precios accesibles.”</p>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Completa el siguiente formulario para comunicarte con nosotros:</p>
+
+        <form action="https://formspree.io/f/mgaeregd" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="4"
+            cols="50"
+            required
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+
+        <!-- Tabla de datos de contacto -->
+        <h3>Mensajes recibidos</h3>
+        <table
+          border="1"
+          style="width: 100%; border-collapse: collapse; margin-top: 20px"
+        >
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Correo</th>
+              <th>Mensaje</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Laura Pérez</td>
+              <td>laura@example.com</td>
+              <td>Consulta sobre paquetes</td>
+              <td>Respondido</td>
+            </tr>
+            <tr>
+              <td
+                colspan="4"
+                style="
+                  text-align: center;
+                  font-weight: bold;
+                  background: #f0f0f0;
+                "
+              >
+                Mensajes pendientes de respuesta
+              </td>
+            </tr>
+            <tr>
+              <td>Juan Gómez</td>
+              <td>juan@example.com</td>
+              <td>Solicitud de presupuesto</td>
+              <td>Pendiente</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <h2>
+        Bienvenido al curso de viajes por el "Mundo Frontend" de Talento-Tech.
+      </h2>
+      <p>Este es el <strong> contenido principal </strong> de la página.</p>
+    </main>
+    <footer>
+      <p>© 2026 Mi sitio web</p>
+    </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const contactoLink = document.querySelector('a[href="#contacto"]')
+        const contactoSection = document.getElementById('contacto')
+        const navLinks = document.querySelectorAll('nav a')
+        const form = contactoSection.querySelector('form')
+
+        // Mostrar con fade-in
+        contactoLink.addEventListener('click', function (event) {
+          event.preventDefault()
+          contactoSection.classList.add('visible')
+          contactoSection.scrollIntoView({ behavior: 'smooth' })
+        })
+
+        // Ocultar con fade-out solo despues de enviar
+        form.addEventListener('submit', function () {
+          setTimeout(() => {
+            contactoSection.classList.remove('visible')
+            form.reset() // limpia después de enviar
+          }, 500) // espera medio segundo para que Formspree procese
+        })
+
+        // Ocultar con fade-out al tocar otro botón del menú
+        navLinks.forEach((link) => {
+          if (link.getAttribute('href') !== '#contacto') {
+            link.addEventListener('click', function () {
+              contactoSection.classList.remove('visible')
+              form.reset() // limpia al salir
+            })
+          }
+        })
+      })
+    </script>
+  </body>
+</html>
