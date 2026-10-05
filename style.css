@@ -153,6 +153,13 @@ h3 {
   color: black;
 }
 
+.titulo-ofertas {
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  margin: 40px 0 20px;
+}
+
 .productos {
   display: flex;
   gap: 20px;
