@@ -43,3 +43,6 @@ El objetivo es aprender a crear la estructura básica de una página web y prepa
 ## Autor
 
 Proyecto realizado por Sergio Sosa como parte del curso **Talento-Tech Frontend**.
+
+
+
