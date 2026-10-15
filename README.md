@@ -61,8 +61,8 @@ El objetivo es aprender a crear la estructura básica de una página web y prepa
 
 ## Links
 
-- [Repositorio en GitHub](URL_DEL_REPO)
-- [Sitio publicado en GitHub Pages](URL_DE_PAGES)
+- [Repositorio en GitHub](https://github.com/Bigote499/pre-entrega-frontend)
+- [Sitio publicado en GitHub Pages](https://bigote499.github.io/pre-entrega-frontend/)
 
 ## Autor
 
