@@ -1,7 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
   const boton = document.getElementById('btn-internacionales')
 
-  boton.addEventListener('click', cargarDestinos)
+  boton.addEventListener('click', () => {
+    const contenedor = document.getElementById('contenedor-internacionales')
+
+    if (contenedor.innerHTML === '') {
+      cargarDestinos()
+    } else {
+      contenedor.innerHTML = ''
+    }
+  })
 })
 
 async function cargarDestinos() {

@@ -97,6 +97,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (contenedor.innerHTML === '') {
       cargarOfertas()
+    } else {
+      contenedor.innerHTML = ''
     }
   })
 })

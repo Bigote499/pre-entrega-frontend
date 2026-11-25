@@ -370,3 +370,35 @@ header {
 .card-categoria button:hover {
   background-color: #e65c00;
 }
+
+.redes-sociales {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.redes-sociales h3 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.redes-contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.red-social {
+  text-decoration: none;
+  background-color: #167ac6;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.red-social:hover {
+  background-color: #0d5fa0;
+  transform: scale(1.05);
+}
