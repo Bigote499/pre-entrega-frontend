@@ -18,12 +18,25 @@
   </head>
   <body>
     <header>
-      <h1>Contacto</h1>
+      <div class="header-top">
+        <img
+          src="../images/logo1.png"
+          alt="Logo de Mi sitio web"
+          class="logo"
+        />
+        <h1>Contacto</h1>
+      </div>
+
       <nav>
         <ul>
           <li><a href="../index.html">Inicio</a></li>
           <li><a href="ofertas.html">Ofertas</a></li>
           <li><a href="reseñas.html">Reseñas</a></li>
+          <li>
+            <a href="carrito.html"
+              >Carrito (<span id="contador-index">0</span>)</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -117,5 +130,6 @@
         })
       })
     </script>
+    <script src="../js/carrito.js"></script>
   </body>
 </html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <img
+          src="../images/logo1.png"
+          alt="Logo de Mi sitio web"
+          class="logo"
+        />
+        <h1>Mi Tienda</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="ofertas.html">Ofertas</a></li>
+          <li><a href="reseñas.html">Reseñas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li>
+            <a href="carrito.html"
+              >Carrito (<span id="contador-carrito">0</span>)</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Carrito de Compras</h2>
+      <!-- Contenedor vacío -->
+      <ul id="lista-carrito"></ul>
+      <h3>Total: $<span id="total-carrito">0</span></h3>
+      <button id="vaciar-carrito">Vaciar Carrito</button>
+    </main>
+
+    <footer>
+      <p>© 2026 Mi sitio web</p>
+    </footer>
+
+    <!-- Enlace al JS -->
+    <script src="../js/carrito.js"></script>
+  </body>
+</html>

@@ -301,3 +301,72 @@ hr {
     padding: 10px;
   }
 }
+.card-mes {
+  background: #cc5f00; /* rojo fuerte como en tu ejemplo */
+  border-radius: 12px;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.card-mes h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.card-mes .productos {
+  margin-top: 20px;
+}
+header {
+  background: linear-gradient(to right, #0077cc, #00cc99);
+  padding: 20px 0;
+  color: white;
+}
+
+header {
+  background: linear-gradient(to right, #0077cc, #00cc99);
+  padding: 20px 0;
+  color: white;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centra el contenido en el eje horizontal */
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 20px; /* logo fijo en la punta izquierda */
+  width: 100px;
+  height: auto;
+}
+
+.header-top h1 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.card-categoria button {
+  background-color: #ff6b00;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-categoria button:hover {
+  background-color: #e65c00;
+}

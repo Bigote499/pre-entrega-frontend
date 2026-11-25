@@ -1,0 +1,54 @@
+{
+  "Octubre": [
+    {
+      "nombre": "Bariloche & Lagos Patagónicos",
+      "precio": 599990,
+      "promo": "PROMO 2x1",
+      "lugares": 218,
+      "descripcion": "Paquete de 5 días por la Patagonia con excursiones.",
+      "imagen": "../images/imagenesbariloche.jpg"
+    },
+    {
+      "nombre": "Mendoza & Termas de Cacheuta",
+      "precio": 499990,
+      "promo": "PROMO 2x1",
+      "lugares": 371,
+      "descripcion": "Relax en las termas y visitas a bodegas.",
+      "imagen": "../images/imagenesmendoza.jpg"
+    },
+    {
+      "nombre": "Cataratas del Iguazú Premium",
+      "precio": 399990,
+      "promo": "PROMO 2x1",
+      "lugares": 409,
+      "descripcion": "Experiencia premium en las Cataratas con guía exclusivo.",
+      "imagen": "../images/imagenesiguazu.jpg"
+    }
+  ],
+  "Noviembre": [
+    {
+      "nombre": "Salta & Valles Calchaquíes",
+      "precio": 459990,
+      "promo": "PROMO 2x1",
+      "lugares": 150,
+      "descripcion": "Descubrí la cultura norteña y paisajes únicos.",
+      "imagen": "../images/imagenessalta.jpg"
+    },
+    {
+      "nombre": "Córdoba & Sierras",
+      "precio": 379990,
+      "promo": "PROMO 2x1",
+      "lugares": 200,
+      "descripcion": "Aventura en las sierras cordobesas con actividades outdoor.",
+      "imagen": "../images/imagenescordoba.jpg"
+    },
+    {
+      "nombre": "Villa Gesell & Costa Atlántica",
+      "precio": 299990,
+      "promo": "PROMO 2x1",
+      "lugares": 320,
+      "descripcion": "Vacaciones frente al mar con servicios premium.",
+      "imagen": "../images/imagenesgesell.jpg"
+    }
+  ]
+}
